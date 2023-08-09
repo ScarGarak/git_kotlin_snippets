@@ -1,0 +1,5 @@
+# build executable .jar from .kt
+kotlinc test.kt -include-runtime -d test.jar
+
+# run .jar
+Java -jar test.jar
